@@ -1,0 +1,168 @@
+/* Custom styles for CBT Tryout MAN IC */
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --success: #16a34a;
+  --warning: #eab308;
+  --danger: #dc2626;
+  --info: #0284c7;
+}
+
+/* Glassmorphism and Card Accents */
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.dark .glass-card {
+  background: rgba(30, 41, 59, 0.95);
+  border-color: rgba(51, 65, 85, 0.8);
+}
+
+/* Question Grid Button States */
+.q-btn {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  font-size: 0.875rem;
+}
+
+.q-btn:hover {
+  transform: translateY(-1px);
+}
+
+.q-btn-unanswered {
+  background-color: #f1f5f9;
+  color: #475569;
+  border: 1.5px solid #cbd5e1;
+}
+
+.dark .q-btn-unanswered {
+  background-color: #334155;
+  color: #cbd5e1;
+  border-color: #475569;
+}
+
+.q-btn-answered {
+  background-color: #22c55e;
+  color: #ffffff;
+  border: 1.5px solid #16a34a;
+  box-shadow: 0 1px 3px rgba(34, 197, 94, 0.3);
+}
+
+.q-btn-flagged {
+  background-color: #eab308;
+  color: #ffffff;
+  border: 1.5px solid #ca8a04;
+  box-shadow: 0 1px 3px rgba(234, 179, 8, 0.3);
+}
+
+.q-btn-active {
+  ring: 3px;
+  outline: 3px solid #3b82f6 !important;
+  outline-offset: 2px;
+  font-weight: 800;
+}
+
+/* Font Size Adjustments */
+.font-size-sm {
+  font-size: 0.925rem;
+  line-height: 1.5;
+}
+
+.font-size-md {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.font-size-lg {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+/* Option Cards */
+.option-card {
+  border: 1.5px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.875rem 1.125rem;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.dark .option-card {
+  border-color: #334155;
+  background-color: #1e293b;
+}
+
+.option-card:hover {
+  border-color: #93c5fd;
+  background-color: #f8fafc;
+}
+
+.dark .option-card:hover {
+  border-color: #60a5fa;
+  background-color: #1e293b;
+}
+
+.option-card.selected {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.dark .option-card.selected {
+  border-color: #3b82f6;
+  background-color: #1e3a8a33;
+}
+
+/* Timer warning animation */
+@keyframes timerPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.timer-warning {
+  animation: timerPulse 1s infinite;
+  color: #ef4444 !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+/* Print styling for certificates / test review */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

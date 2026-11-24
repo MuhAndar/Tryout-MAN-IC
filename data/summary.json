@@ -1,0 +1,90 @@
+{
+  "title": "Bank Soal Ebook MAN IC 5 Paket 1300+ Soal",
+  "totalPackages": 5,
+  "packages": [
+    {
+      "packageId": 1,
+      "packageName": "Paket 1 MAN IC",
+      "file": "paket1.json",
+      "totalQuestions": 274,
+      "categoryDistribution": {
+        "Kemampuan Verbal": 40,
+        "Literasi Bahasa Indonesia": 26,
+        "Bahasa Inggris": 20,
+        "Keislaman": 25,
+        "Matematika": 58,
+        "Moderasi Beragama dan Sikap": 70,
+        "Angket Sikap": 35
+      }
+    },
+    {
+      "packageId": 2,
+      "packageName": "Paket 2 MAN IC",
+      "file": "paket2.json",
+      "totalQuestions": 274,
+      "categoryDistribution": {
+        "Kemampuan Verbal": 40,
+        "Literasi Bahasa Indonesia": 26,
+        "Bahasa Inggris": 20,
+        "Keislaman": 25,
+        "Matematika": 58,
+        "Moderasi Beragama dan Sikap": 70,
+        "Angket Sikap": 35
+      }
+    },
+    {
+      "packageId": 3,
+      "packageName": "Paket 3 MAN IC",
+      "file": "paket3.json",
+      "totalQuestions": 274,
+      "categoryDistribution": {
+        "Kemampuan Verbal": 40,
+        "Literasi Bahasa Indonesia": 26,
+        "Bahasa Inggris": 20,
+        "Keislaman": 25,
+        "Matematika": 58,
+        "Moderasi Beragama dan Sikap": 70,
+        "Angket Sikap": 35
+      }
+    },
+    {
+      "packageId": 4,
+      "packageName": "Paket 4 MAN IC",
+      "file": "paket4.json",
+      "totalQuestions": 274,
+      "categoryDistribution": {
+        "Kemampuan Verbal": 40,
+        "Literasi Bahasa Indonesia": 26,
+        "Bahasa Inggris": 20,
+        "Keislaman": 25,
+        "Matematika": 58,
+        "Moderasi Beragama dan Sikap": 70,
+        "Angket Sikap": 35
+      }
+    },
+    {
+      "packageId": 5,
+      "packageName": "Paket 5 MAN IC",
+      "file": "paket5.json",
+      "totalQuestions": 274,
+      "categoryDistribution": {
+        "Kemampuan Verbal": 40,
+        "Literasi Bahasa Indonesia": 26,
+        "Bahasa Inggris": 20,
+        "Keislaman": 25,
+        "Matematika": 58,
+        "Moderasi Beragama dan Sikap": 70,
+        "Angket Sikap": 35
+      }
+    }
+  ],
+  "categories": [
+    "Kemampuan Verbal",
+    "Literasi Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Keislaman",
+    "Matematika",
+    "Moderasi Beragama dan Sikap",
+    "Angket Sikap"
+  ]
+}
